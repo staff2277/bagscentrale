@@ -47,6 +47,7 @@ export default function Hero() {
           src="https://placehold.co/1920x1080/1a1a1a/ffffff?text=Premium+Collection+2026"
           alt="Luxury Backdrop"
           fill
+          sizes="100vw"
           className="object-cover opacity-60 brightness-75 grayscale"
         />
       </div>

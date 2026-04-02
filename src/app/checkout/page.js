@@ -91,7 +91,7 @@ export default function Checkout() {
               ].map((item, id) => (
                 <div key={id} className="flex gap-6 items-center">
                   <div className="relative w-20 h-24 bg-zinc-200 border border-black/5">
-                    <Image src={item.image} alt={item.name} fill className="object-cover" />
+                    <Image src={item.image} alt={item.name} fill sizes="80px" className="object-cover" />
                   </div>
                   <div className="flex-1">
                     <h5 className="text-xs font-bold tracking-widest uppercase mb-1">{item.name}</h5>

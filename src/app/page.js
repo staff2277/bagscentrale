@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import FeaturedProducts from "@/components/FeaturedProducts";
+import Link from "next/link";
 
 export default function Home() {
   return (

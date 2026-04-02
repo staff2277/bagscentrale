@@ -47,6 +47,7 @@ export default function Shop() {
                   src={product.image}
                   alt={product.name}
                   fill
+                  sizes="(max-width: 768px) 50vw, 33vw"
                   className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>

@@ -67,6 +67,7 @@ export default function FeaturedProducts() {
                   src={product.image}
                   alt={product.name}
                   fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out grayscale group-hover:grayscale-0"
                 />
                 <button className="absolute bottom-6 right-6 w-12 h-12 bg-white text-black flex items-center justify-center rounded-full opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 hover:bg-black hover:text-white">
