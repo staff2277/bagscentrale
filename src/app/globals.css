@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #ffffff;
+  --accent: #d4af37; /* Gold touch */
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased selection:bg-white selection:text-black;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* GSAP Smooth Reveal Fixes */
+.hero-heading {
+  perspective: 1000px;
+}
+
+/* Custom transitions */
+.transition-luxury {
+  transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
