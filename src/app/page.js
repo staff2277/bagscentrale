@@ -39,7 +39,7 @@ export default function Home() {
       </section>
 
       {/* Philosophy Section with Staggered animations placeholder */}
-      <section className="py-24 px-8 bg-zinc-50 border-t border-black/5">
+      <section className="py-22 px-8 bg-zinc-50 border-t border-black/5">
          <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
             <h3 className="text-4xl font-light italic text-zinc-400 mb-12">"Luxury is the quality of life, not the quantity of things."</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12 w-full">
